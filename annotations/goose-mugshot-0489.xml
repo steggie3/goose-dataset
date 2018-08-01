@@ -1,0 +1,26 @@
+<annotation>
+	<folder>mugshots</folder>
+	<filename>goose-mugshot-0489.jpg</filename>
+	<path>C:\Users\Steggie\git\goose-dataset-master\mugshots\goose-mugshot-0489.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>533</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>goose-head</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>88</xmin>
+			<ymin>137</ymin>
+			<xmax>599</xmax>
+			<ymax>400</ymax>
+		</bndbox>
+	</object>
+</annotation>
