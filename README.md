@@ -4,7 +4,7 @@ This is a dataset of 1,000 Canada goose images. They are all *mugshots*, with th
 
 ## About the Dataset
 
-Canada geese have a distinct and high-contrast facial pattern that is highly recognizable. The images in this dataset are all somewhat visually similar. The head in the image is either the left side or the right side, not front or back. The background is usually blurry. Only one goose head is present in each image. These properties makes the dataset rather *simple* for various computer vision tasks, and can serve as a starting point for many computer vision experiments. 
+Canada geese have a distinct and high-contrast facial pattern that is highly recognizable. The images in this dataset are all somewhat visually similar. The head in the image is either the left side or the right side, not front or back. The background is usually blurry. Only one goose head is present in each image. These properties makes the dataset rather *simple* for various computer vision tasks, and can serve as a starting point for computer vision experiments such as object recognition, localization, detection, etc.
 
 All images are photographed by me.
 
