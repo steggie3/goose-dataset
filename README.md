@@ -33,7 +33,7 @@ Arguments:
 - resize_shape: [n_rows, n_columns], target shape of the loaded images. If *None*, the default size [533, 800] will be used.
 - save: Boolean. Whether to save the images as how they are loaded into a new directory *processed_images*.
 
-For examples, please check this Jupyter notebook.
+To see an actual example, please check [the Example Jupyter notebook](https://github.com/steggie3/goose-dataset/blob/master/Example.ipynb).
 
 ## Note
 
