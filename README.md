@@ -23,17 +23,17 @@ GooseDataset.load_data(test_ratio=0.2,
 ```
 Returns:
 - 2 tuples:
-  + (x_train, x_test): Arrays of integers with shape (n_samples, 533, 800, 3)in the range [0, 255] for RGB, or arrays of floats with shape (n_samples, 533, 800, 1) in the range [0, 1] for grayscale.
-  + (y_train, y_test): Arrays of integers with shape (n_samples, 1). All values are 1, which stands for presence of goose in the picture.
+  + **(x_train, x_test)**: Arrays of integers with shape (n_samples, 533, 800, 3)in the range [0, 255] for RGB, or arrays of floats with shape (n_samples, 533, 800, 1) in the range [0, 1] for grayscale.
+  + **(y_train, y_test)**: Arrays of integers with shape (n_samples, 1). All values are 1, which stands for presence of goose in the picture.
 
 Arguments:
-- test_ratio: Float. Ratio of (number of testing data) / (number of all data).
-- grayscale: Boolean. Whether to load the images in grayscale.
-- cropped: Boolean. Whether to load only the cropped bounding boxes of the images. If *True*, a new directory *cropped_images* will be created.
-- resize_shape: [n_rows, n_columns], target shape of the loaded images. If *None*, the default size [533, 800] will be used.
-- save: Boolean. Whether to save the images as how they are loaded into a new directory *processed_images*.
+- **test_ratio**: Float. Ratio of (number of testing data) / (number of all data).
+- **grayscale**: Boolean. Whether to load the images in grayscale.
+- **cropped**: Boolean. Whether to load only the cropped bounding boxes of the images. If *True*, a new directory *cropped_images* will be created.
+- **resize_shape**: [n_rows, n_columns], target shape of the loaded images. If *None*, the default size [533, 800] will be used.
+- **save**: Boolean. Whether to save the images as how they are loaded into a new directory *processed_images*.
 
-For examples, please check this Jupyter notebook.
+To see an actual example, please check [the Example Jupyter notebook](https://github.com/steggie3/goose-dataset/blob/master/Example.ipynb).
 
 ## Note
 
