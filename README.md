@@ -8,6 +8,11 @@ Canada geese have a distinct and high-contrast facial pattern that is highly rec
 
 All images are photographed by me.
 
+<figure>
+  <img src="sample_images.png" alt="sample_images.png"/>
+  <figcaption>Sample images from the dataset.</figcaption>
+</figure>
+
 ## Usage
 
 The *images* directory contains 1,000 JPG images of the size 800 x 533. The *annotations* directory contains the XML annotations. These can be directly used in the [darkflow](https://github.com/thtrieu/darkflow) implementation of object detection by placing them under darkflow/test/training. 
